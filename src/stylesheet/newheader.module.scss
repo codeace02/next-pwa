@@ -1,0 +1,429 @@
+.signUp {
+    border-radius: 26px;
+    background: var(--Primary1, #075DC1);
+    border: 1px solid #075DC1;
+}
+
+// .footerImage:hover {
+//     border-radius: 50%;
+//     transform: 10px -20px;
+//     box-shadow: -80px 12px 48.1px 10px rgba(0, 0, 0, 0.08) !important;
+// }
+
+.activeHome {
+    color: #16ACA9;
+    font-weight: 600;
+}
+
+.bannerBgImg {
+    background-image: url('/images/imagesnew/banner.png');
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    // background-size: 80%;
+    background-size: 30%;
+    // height: 70vh;
+}
+
+.searchMembershipButton {
+    border-radius: 50px;
+    background: #16ACA9;
+    border: 1px solid #16ACA9;
+}
+
+.searchMembershipButton:hover {
+    box-shadow: -8px 12px 48.1px 0px rgba(0, 0, 0, 0.08) !important;
+    font-weight: 700 !important;
+    background-color: white;
+    border: 1px solid #16ACA9;
+    color: #16ACA9 !important;
+}
+
+.thirdBoxOuter {
+    border-radius: 8px;
+    background: #F7FAFC;
+    // padding: 25.81% 7.74% 7.74% 7.74%;
+}
+
+.categorySection {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 68px 0px rgba(14, 31, 33, 0.05);
+}
+
+.activeCatOuter {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: rgba(22, 172, 169, 0.10);
+}
+
+.catOptOuter {
+    border-radius: 10px;
+    background: #F7FAFC;
+}
+
+.subsOuter {
+    border-radius: 8px;
+    background: #16ACA9;
+}
+
+.doctorImage {
+    position: absolute;
+    box-shadow: lightgray -0.265px 0px/140.54% 100%;
+}
+
+.doctorImage2 {
+    position: absolute;
+    box-shadow: lightgray -0.265px 0px/140.54% 100%;
+    bottom: 52%;
+    left: 0%;
+    width: 100%;
+    height: 60%;
+}
+
+.formOuter {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.signupbtn {
+    border-radius: 50px;
+    background: #16ACA9;
+    border: 0;
+    border: 1px solid #16ACA9;
+}
+
+.signupbtn:hover {
+    font-weight: 700;
+    background-color: white;
+    color: #16ACA9 !important;
+    border: 1px solid #16ACA9;
+    box-shadow: -8px 12px 48.1px 0px rgba(0, 0, 0, 0.08) !important;
+}
+
+.catHover:hover {
+    // font-weight: 600;
+    background-color: #16ACA9;
+    color: white !important;
+}
+
+.activeCatOuter:hover {
+    background: rgba(22, 172, 169, 0.10);
+    font-weight: 600;
+    color: #16ACA9 !important;
+    border: 1px solid #16ACA9;
+}
+
+.emailInput {
+    border-radius: 32px;
+    background: #FFF;
+    color: rgba(2, 18, 18, 0.40);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.556%;
+    padding: 2.5% 4%;
+}
+
+.submitButton {
+    border-radius: 50px;
+    background: #16ACA9;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    border: 0;
+    padding: 2.3% 0%;
+
+    position: absolute;
+    top: 11%;
+}
+
+.submitButton:hover {
+    background-color: white;
+    color: #16ACA9;
+    border: 1px solid #16ACA9;
+    font-weight: 600;
+    top: 10%;
+}
+
+.loginHoverOuter {
+    border: 1px solid rgba(2, 18, 18, 0.20);
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .07);
+
+    p:hover {
+        transition: all 350ms ease-in-out;
+        transform: translateY(-2px);
+        font-weight: 500;
+    }
+}
+
+.loginHoverOuter1 {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    background-color: transparent;
+    width: 140% !important;
+}
+
+.practiceLogin {
+    border: 1.5px solid #0000001A;
+    border-radius: 48px;
+}
+
+// <=================================== media query for doctor shadow section ========================================>
+
+@media (max-width :425px) {
+    .doctorImage2 {
+        margin-bottom: 43%;
+        height: 33%;
+        width: 70%;
+        left: 15%;
+    }
+
+    .docMargin {
+        margin-top: 15% !important;
+    }
+}
+
+@media (max-width :486px) and (min-width : 425px) {
+    .doctorImage2 {
+        margin-bottom: 30%;
+        height: 40%;
+        width: 70%;
+        left: 15%;
+    }
+
+    .docMargin {
+        margin-top: 15% !important;
+    }
+}
+
+@media (max-width :515px) and (min-width : 486px) {
+    .doctorImage2 {
+        margin-bottom: 20%;
+        height: 47%;
+    }
+
+    .docMargin {
+        margin-top: 20% !important;
+    }
+}
+
+@media (max-width :610px) and (min-width : 515px) {
+    .doctorImage2 {
+        margin-bottom: 15%;
+        height: 47%;
+        width: 90%;
+        left: 5%;
+    }
+
+    .docMargin {
+        margin-top: 10% !important;
+    }
+}
+
+@media (max-width :690px) and (min-width : 610px) {
+    .doctorImage2 {
+        margin-bottom: 10%;
+        height: 50%;
+        width: 90%;
+        left: 5%;
+    }
+
+    .docMargin {
+        margin-top: 15% !important;
+    }
+}
+
+@media (max-width :768px) and (min-width : 690px) {
+    .doctorImage2 {
+        margin-bottom: 5%;
+        width: 90%;
+        left: 5%;
+    }
+
+    .docMargin {
+        margin-top: 16% !important;
+    }
+}
+
+// <=================================== media query for doctor shadow section ends ========================================>
+
+@media (max-width : 1023px) {
+    .doctorImage {
+        bottom: 52%;
+        left: -10%;
+        width: 100%;
+        height: 57%;
+    }
+
+    .subsOuter {
+        padding-top: 50% !important;
+    }
+}
+
+@media (max-width : 1024px) {
+    .sec1Padding {
+        padding-bottom: 5%;
+    }
+
+    .submitButton {
+        right: 2%;
+    }
+
+    .referralImage,
+    .referralImage1 {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (min-width : 1024px) {
+
+    .categorySection {
+        position: absolute;
+        top: 82%;
+        width: 90%;
+        left: 5%;
+    }
+
+    .sec2Margin {
+        margin-top: 20%;
+    }
+
+    .sec1Padding {
+        padding-bottom: 15%;
+    }
+
+    .doctorImage {
+        bottom: 0;
+        right: 0;
+
+        height: 120%;
+        width: 64%;
+        object-fit: cover;
+    }
+
+    .subsOuter {
+        margin-top: 20% !important;
+    }
+
+    .referralImage {
+        height: 105%;
+        width: 112%;
+    }
+
+    .referralImage1 {
+        height: 105%;
+        width: 100%;
+    }
+
+    .chatImage {
+        height: 33rem;
+        width: 113%;
+    }
+
+}
+
+@media (min-width : 1440px) {
+
+    .categorySection {
+        position: absolute;
+        top: 86%;
+        width: 90%;
+        left: 5%;
+    }
+
+    .sec2Margin {
+        margin-top: 10%;
+    }
+
+    .sec1Padding {
+        padding-bottom: 10%;
+    }
+
+    .subsOuter {
+        margin-top: 18% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .home {
+        border-radius: 24px;
+        border: 1px solid rgba(2, 18, 18, 0.20);
+    }
+
+    .home:hover {
+        background-color: #16ACA9;
+        color: white;
+    }
+
+    .activeHome {
+        border-radius: 24px;
+        border: 1px solid #16ACA9;
+    }
+
+    .activeHome:hover {
+        background-color: #16ACA9;
+        font-weight: 700;
+        color: white;
+        box-shadow: -8px 12px 48.1px 0px rgba(0, 0, 0, 0.08) !important;
+    }
+
+    .login:hover {
+        text-decoration: underline;
+        color: #16ACA9;
+        font-weight: 600;
+    }
+
+    .signUp:hover {
+        background-color: white;
+        color: #075DC1;
+    }
+
+    .headingMargin {
+        margin: 0 20%;
+    }
+
+    .headingMargin1 {
+        margin: 0 26%;
+    }
+
+    .emailInput {
+        width: 80%;
+    }
+
+    .submitButton {
+        right: 22%;
+    }
+
+    .loginHoverOuter1 {
+        top: 100%;
+        left: 0;
+        width: 140% !important;
+    }
+}
+
+@media screen and (max-width : 991px) {
+    .login {
+        border-radius: 26px;
+        border: 1px solid #16ACA9;
+        color: #16ACA9;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 155.556% */
+    }
+
+    .kBox {
+        width: 20px !important;
+    }
+}
